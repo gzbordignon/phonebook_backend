@@ -99,7 +99,7 @@ app.post("/api/persons", (req, res) => {
   res.json(persons);
 });
 
-// delete person
+// delete persons
 
 app.delete("/api/persons/:id", (req, res) => {
   const id = getId(req);
